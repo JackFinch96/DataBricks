@@ -357,8 +357,8 @@ while repeat:
 #Create a program that will guess the number between 1 - 10, tell you if you are too high, low or got it correct
 
 import random #Import random library
-correct_number = random.randint(1, 10) #Assign random value between 1-10
-guess = int(input("Guess the secret number between 1-10: ")) #This allows the user to guess what the number could be
+correct_number = random.randint(1, 100) #Assign random value between 1-10
+guess = int(input("Guess the secret number between 1-100: ")) #This allows the user to guess what the number could be
 
 while guess != correct_number: 
     if guess < correct_number:
